@@ -72,3 +72,68 @@ a {
 }
 
 /* hero end  */
+.section-header {
+    margin-top: 40px;
+}
+
+.section-header h1 {
+    font-size: 24px;
+}
+
+/* Dashboard Start  */
+.side-menu {
+    height: 100vh;
+    background-color: var(--primary);
+}
+
+.side-menu ul li {
+    background-color: #40afa6;
+    margin-bottom: 0px;
+
+}
+
+.side-menu ul {
+    padding-top: 0px;
+}
+
+.side-menu ul li a {
+    padding: 20px 0;
+    display: block;
+    color: white;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.side-menu ul li:hover a {
+    color: white;
+    text-decoration: none;
+    background: #34495e;
+}
+
+.username span {
+    background: #34495e;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+p.card-text span {
+    font-weight: 500;
+    color: #c02929;
+}
+
+.dashboard-logo h4 a {
+    color: white;
+}
+
+.dashboard-logo h4 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.single-post.h-100 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+}
+
+/* Dashboard End  */
